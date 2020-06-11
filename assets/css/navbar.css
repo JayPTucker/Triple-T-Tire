@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(209, 209, 209) !important;
+}
+
+.header {
+    background-color: #cc1f0c;
+    padding: 20px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header:hover {
+    box-shadow: 0px 5px 10px black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+li {
+    display: inline;
+}
+
+.navbar-link {
+    color: white;
+    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px black;
+    text-decoration: none !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-link:hover {
+    color: black;
+    font-weight: bolder;
+    text-shadow: 0.5px 0.5px 1px white;
+    text-decoration: none !important;
+}
+
+/* .dropdown-menu {
+    padding: 0px !important
+} */
+
+.test {
+    margin-bottom: 2000px;
+}
