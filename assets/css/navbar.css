@@ -1,23 +1,16 @@
 .header {
     background-color: rgba(0, 0, 0, 0.466);
     padding: 20px 0px;
-    transition: all 0.5s ease-in-out;
+    /* ADJUSTS THE SPEED OF THE NAVBAR COMING IN AND OUT UPON SCROLLING: */
+    transition: all 0.4s ease-in-out;
 }
-
 
 .header:hover {
     background-color: rgba(0, 0, 0, 0.582);
     /* box-shadow: 0px 0px 10px black; */
 }
 
-.navbar-link {
-    color: white !important;
-    padding: 0px 15px;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none !important;
-    transition: all 0.2s ease-in-out;
-}
+/* ============================================== */
 
 /* TTT NAVBAR IMAGE */
 .ttt-img {
@@ -25,45 +18,74 @@
     height: auto;
     -webkit-filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
     filter: drop-shadow(3px 3px 1px rgb(0, 0, 0));
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .ttt-img:hover {
     transform: scale(1.15);
+    -webkit-filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+    filter: drop-shadow(3px 3px 5px rgb(0, 0, 0));
 }
 
-/* THIS BELOW IS THE 3 LINES ICON AKA MORE OPTIONS BUTTON FOR WHEN THE SCREEN GETS SMALLER */
-.topnav a {
-    color: white;
-    text-shadow: 1px 1px 2px black;
-    padding: 10px !important;
-}
+/* ============================================== */
 
+/* THE DIV RESIZING BELOW IS USED TO CENTER THE NAVBAR LINKS IN THE NAV */
 div.col-7 {
     margin-top: calc(4px + 0.6vmax) !important;
 }
 
-/* HOVER */
-.topnav a:hover {
+/* ============================================== */
+
+/* CUSTOMIZING THE LINKS: */
+.navbar-link {
+    color: white;
+    font-size: calc(13px + 1vmax);
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none !important;
+    padding: 10px !important;
+    margin-left: calc(14px + 7vmin);
+    line-height: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* ^ HOVER ^ */
+.navbar-link:hover {
     color: rgb(182, 182, 182) !important;
-    font-size: 150%;
+    font-size: calc(18px + 1vmax);
 }
 
-/* THIS INDICATES WHAT PAGE YOU'RE CURRENTLY ON IN THE NAVBAR - INDICATED BY THE 'ACTIVE' CLASS IN THE HTML */
-.topnav a.active {
-    color: red !important;
+/* ============================================== */
+
+/* THE ACTIVE (CURRENT PAGE) ITEM ON THE NAVBAR */
+.navbar-link.active {
+    font-weight: bolder;
+    color: rgb(192, 0, 0) !important;
 }
 
-.topnav a.active:hover {
-    color: rgb(197, 0, 0) !important;
+/* ^ HOVER ^ */
+.navbar-link.active:hover {
+    color: rgb(155, 0, 0) !important;
+}
+
+/* ============================================== */
+
+/* THIS BELOW IS THE 3 LINES ICON AKA MORE OPTIONS BUTTON FOR WHEN THE SCREEN GETS SMALLER */
+.topnav a {
+    color: white;
+    font-size: 20px
+}
+
+.topnav a:hover {
+    color: white;
+}
+
+.topnav a:active {
+    color: rgb(139, 139, 139);
 }
 
 
-
-a:hover {
-    color: white !important;
-}
-
+/* EVERYTHING ELSE BELOW IS FOR THE RESPONSIVE NAVBAR SUPPORT */
 .topnav .icon {
     display: none;
 }
