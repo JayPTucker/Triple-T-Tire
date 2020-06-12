@@ -12,53 +12,45 @@
     <link rel="stylesheet" href="assets/css/navbar.css">
     <!-- INDEX PAGE CSS: -->
     <link rel="stylesheet" href="assets/css/index.css">
+    <!-- FONT-AWESOME CSS: -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- BOOTSTRAP CSS: -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
 </head>
-<body>
+<body class="background" style="background-image: url('temp-background.jpg')">
     
-    <header class="header navbar-expand sticky-top fixed-top container-fluid" id="navbar">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <ul class="nav-list">
-                    <li>
-                        <a class="navbar-link" href="/" title="HOME">HOME</a>
-                    </li>
-
-                    <li>
-                        <a class="navbar-link" href="/search/tires" title="TIRES">TIRES</a>
-                    </li>
-
-                    <li>
-                        <a class="navbar-link" href="/search/wheels" title="WHEELS">WHEELS</a>
-                    </li>
-
-                    <li>
-                        <a class="navbar-link" href="/services" title="AUTO SERVICES">AUTO SERVICES</a>
-                    </li>
-
-                    <li class="dropdown navbar-link">
-                        <a style="color: #39ff14;" title="Easy Pay Financing Available at Triple T Tire Pros in Paris TN and Dyersburg, TN" href="/easy_pay_financing" class="dropdown-toggle" data-toggle="dropdown">PAYMENT PLANS&nbsp;<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a style="color: #39ff14;" title="Tapps Financing" href="/plans">Payment Plans</a></li><br>
-                            <li><a title="Business Credit Application" href="/business_credit">Business Credit Application</a></li><br>
-                            <li><a title="Payment Types Accepted" href="/payment_types_accepted">Payment Types Accepted</a></li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <a class="navbar-link" title="Business Credit Application" href="/business_credit">Business Credit Application</a>
-                    </li>
-
-                    <li>
-                        <a class="navbar-link" title="Payment Types Accepted" href="/payment_types_accepted">Payment Types Accepted</a>
-                    </li>
-                    
-                </ul>
+    <header class="header topnav sticky-top fixed-top container-fluid" id="navbar">
+        <div class="row">
+            
+            <div class="col-4 text-center">
+                <a href="/"><img class="ttt-img" src="assets/img/triple-t-tire.png"></a>
             </div>
+            <div class="col-7 text-center">
+                <a href="/" class="navbar-link active"><i>HOME</i></a>
+                <a href="/search/tires" class="navbar-link"><i>TIRES</i></a>
+                <a href="/search/wheels" class="navbar-link"><i>WHEELS</i></a>
+                <!-- <a class="navbar-link">Whe</a>
+                <a class="navbar-link">Whee</a>
+                <a class="navbar-link">Wh</a> -->
+                
+            </div>
+            <div class="col-1">
+                <a href="javascript:void(0);" class="icon" onclick="navbarMinimize()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
         </div>
     </header>
+
+    <!-- <section class="container-fluid background" style="background-image: url('temp-background.jpg');">
+        <div class="row">
+            <div class="col-12">
+                <p>Section test</p>
+            </div>
+        </div>
+    </section> -->
 
     <p class="test"> Body Test </p>
     <p class="test"> Body Test </p>

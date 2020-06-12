@@ -2,10 +2,22 @@
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
+
+var x = document.getElementById("navbar");
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+    x.style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-179px";
+    x.style.top = "-500px";
   }
   prevScrollpos = currentScrollPos;
+}
+
+// NAVBAR MINIMIZING FUNCTION?
+function navbarMinimize() {
+  var x = document.getElementById("navbar");
+  if (x.className === "header topnav sticky-top fixed-top container-fluid") {
+    x.className += " responsive";
+  } else {
+    x.className = "header topnav sticky-top fixed-top container-fluid";
+  }
 }
