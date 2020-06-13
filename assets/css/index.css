@@ -116,12 +116,6 @@ p {
 /* ================================================ */
 
 
-/* Adds the extra text just to test if the navbar functions properly */
-.test {
-    margin-bottom: 2000px;
-}
-
-
 @media screen and (max-width: 768px) {
     .feature {
         margin: 10px 20px 0px 20px !important;
