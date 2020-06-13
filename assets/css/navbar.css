@@ -39,20 +39,21 @@ div.col-7 {
 /* CUSTOMIZING THE LINKS: */
 .navbar-link {
     color: white;
-    font-size: calc(13px + 1vmax);
+    font-size: calc(13px + 0.7vmax);
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
-    text-decoration: none !important;
-    padding: 10px !important;
-    margin-left: calc(14px + 7vmin);
+    text-decoration: none;
+    margin-left: calc(30px + 4vmin);
+    padding-bottom: 20px;
     line-height: 10px;
     transition: all 0.2s ease-in-out;
 }
 
 /* ^ HOVER ^ */
 .navbar-link:hover {
-    color: rgb(182, 182, 182) !important;
-    font-size: calc(18px + 1vmax);
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-size: calc(13px + 1vmax);
 }
 
 /* ============================================== */
@@ -71,16 +72,16 @@ div.col-7 {
 /* ============================================== */
 
 /* THIS BELOW IS THE 3 LINES ICON AKA MORE OPTIONS BUTTON FOR WHEN THE SCREEN GETS SMALLER */
-.topnav a {
+.topnav a.icon {
     color: white;
-    font-size: 20px
+    font-size: 20px;
 }
 
-.topnav a:hover {
+.topnav a.icon:hover {
     color: white;
 }
 
-.topnav a:active {
+.topnav a.icon:active {
     color: rgb(139, 139, 139);
 }
 

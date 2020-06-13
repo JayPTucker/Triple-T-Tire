@@ -1,5 +1,7 @@
 body {
     background-color: rgb(255, 255, 255) !important;
+    font-family: 'Lalezar', sans-serif !important;
+    letter-spacing: 1px !important;
 }
 
 div {
