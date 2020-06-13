@@ -56,29 +56,46 @@
         </div>
     </section>
 
-    <section class="bodytest container-fluid">
+    <section class="feature-section container-fluid">
         <div class="row justify-content-center">
-            <div class="feature col-2 text-center">
-                <img class="feature-img" src="assets/img/wheel.png">
-                <p>WHEEL</p>
+            <div class="feature col-md-2 text-center">
+                <img class="feature-img-1" src="assets/img/wheel.png">
+                <p class="feature-title">WHEELS</p>
+                <p class="feature-desc">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry<p>
             </div>
 
-            <div class="feature col-2 text-center">
-                <p>Test</p>
+            <div class="feature col-md-2 text-center">
+                <img class="feature-img-2" src="assets/img/wrench.png">
+                <p class="feature-title">CAR REPAIR SERIVES</p>
+                <p class="feature-desc">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
             </div>
 
-            <div class="feature col-2 text-center">
-                <p>Test</p>
+            <div class="feature col-md-2 text-center"> 
+                <img class="feature-img-3" src="assets/img/money.png">
+                <p class="feature-title">PAYMENT PLAN</p>
+                <p class="feature-desc">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
             </div>
 
-            <div class="feature col-2 text-center">
-                <p>Test</p>
+            <div class="feature col-md-2 text-center">
+                <p class="feature-title">SOMETHING COOL</p>
+                <p class="feature-desc">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
+
             </div>
         </div>
+    </section>
 
+    <section>
         <div class="row">
-            <div class="col-12">
+            <div class="col-8">
                 <div id="map"></div>
+            </div>
+            <div class="col-4">
+                    <label>Choose a Location:</label>
+                    <select id="stores" onchange="initMap()">
+                        <option value="store01">(01) 270 US 51 Bypass South (Dyersburg, TN)</option>
+                        <option value="store72">(72) 450 US 51 Bypass West (Dyersburg, TN)</option>
+                        <option value="store73">(73) 2845 E Wood St (Paris, TN)</option>
+                    </select>
             </div>
         </div>
     </section>
@@ -92,25 +109,20 @@
     </section> -->
 
     <p class="test"> Body Test </p>
-    <p class="test"> Body Test </p>
-    <p class="test"> Body Test </p>
-    <p class="test"> Body Test </p>
-    <p class="test"> Body Test </p>
-    <p class="test"> Body Test </p>
-    <p class="test"> Body Test </p>
-    <p class="test"> Body Test </p>
 
 </body>
+
+<!-- GOOGLE MAPS API -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxORhO0HKfGy6UpcGXJ2R2CeHQrF0zx3s&libraries=places"></script>
 
 <!-- BOOTSTRAP SCRIPTS (Full jQuery Included Right Below): -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<!-- GOOGLE MAPS API -->
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
-
 <!-- PERSONAL SCRIPTS: -->
 <script src="assets/js/index.js"></script>
+
+
 
 </html>

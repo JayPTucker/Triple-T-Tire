@@ -2,6 +2,7 @@
 body {
     font-family: 'Lalezar', sans-serif !important;
     letter-spacing: 0.5px !important;
+    background-color: rgb(231, 231, 231) !important;
 }
 
 div {
@@ -44,7 +45,7 @@ p {
     text-shadow: 2px 2px 2px black;
     background-color: rgba(0, 0, 0, 0.205);
     border: solid 2px rgb(192, 0, 0);
-    margin: 30px 0px 300px 0px;
+    margin: 30px 0px calc(100px + 3vmin) 0px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -54,27 +55,75 @@ p {
 }
 /* ================================================ */
 
-.bodytest {
-    background-color: white;
+.feature-section {
+    background-color: rgba(255, 255, 255, 0);
+    /* DIVS DISTANCE FROM THE ROW ABOVE */
+    margin-top: -20px;
+    margin-bottom: 275px;
 }
 
 .feature {
     background-color: rgb(192, 0, 0);
-    margin: -100px 10px 0px 10px;
-    padding: 100px 0px !important;
+    box-shadow: 0px 0px 8px black;
+    /* THE 10PX DISTANCE IS FOR PROPER GAPS ON MOBILE */
+    margin: 0px 10px 0px 10px !important;
+
+    transition: all 0.3s ease-in-out;
 }
 
-.feature-img {
+.feature:hover {
+    transform: scale(1.1);
+    background-color: rgb(165, 0, 0);
+}
+
+.feature-img-1 {
     width: 100px;
     height: auto;
 }
 
+.feature-img-2 {
+    width: 90px;
+    height: auto;
+    margin: 5px 0px;
+}
+
+.feature-img-3 {
+    width: 100px;
+    height: auto;
+}
+
+.feature-title {
+    font-size: 28px;
+    color: white;
+}
+
+.feature-desc {
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 0px 10px 30px 10px !important;
+}
+
+
+/* ================================================ */
+
 #map {
     height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
+    width: 1100px;  /* The width is the width of the web page */
+    box-shadow: 1px 0px 10px black;
 }
+
+/* ================================================ */
+
 
 /* Adds the extra text just to test if the navbar functions properly */
 .test {
     margin-bottom: 2000px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .feature {
+        margin: 10px 20px 0px 20px !important;
+    }
 }
