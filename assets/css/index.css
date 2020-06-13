@@ -1,18 +1,30 @@
+/* BELOW IS THE BODY WHICH ADDS STANDARD THINGS TO THE ENTIRE PAGE: */
 body {
-    background-color: rgb(255, 255, 255) !important;
     font-family: 'Lalezar', sans-serif !important;
-    letter-spacing: 1px !important;
+    letter-spacing: 0.5px !important;
 }
 
 div {
     padding: 0px !important;
 }
 
+/* ================================================ */
+
 .background {
     background-repeat: no-repeat;
     background-size: calc(400px + 79vmax);
     background-position: top left;
 }
+
+/* ================================================ */
+
+.fp-title {
+    margin-top: 200px;
+    font-size: 30px;
+    color: white;
+}
+
+/* ================================================ */
 
 /* Adds the extra text just to test if the navbar functions properly */
 .test {

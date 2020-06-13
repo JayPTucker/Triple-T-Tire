@@ -31,7 +31,7 @@
 
 /* THE DIV RESIZING BELOW IS USED TO CENTER THE NAVBAR LINKS IN THE NAV */
 div.col-7 {
-    margin-top: calc(4px + 0.6vmax) !important;
+    margin-top: calc(4px + 2.5vmin) !important;
 }
 
 /* ============================================== */
@@ -39,21 +39,22 @@ div.col-7 {
 /* CUSTOMIZING THE LINKS: */
 .navbar-link {
     color: white;
-    font-size: calc(13px + 0.7vmax);
+    font-size: calc(15px + 1vmax);
     font-weight: bold;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 2px black;
     text-decoration: none;
     margin-left: calc(30px + 4vmin);
-    padding-bottom: 20px;
     line-height: 10px;
+
     transition: all 0.2s ease-in-out;
 }
 
 /* ^ HOVER ^ */
 .navbar-link:hover {
-    text-decoration: none;
     color: rgb(182, 182, 182);
-    font-size: calc(13px + 1vmax);
+    text-shadow: 2px 2px 7px black;
+    text-decoration: none;
+    font-size: calc(13px + 1.2vmax);
 }
 
 /* ============================================== */
