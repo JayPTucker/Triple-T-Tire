@@ -8,12 +8,16 @@ div {
     padding: 0px !important;
 }
 
+p {
+    padding: 0px !important;
+}
+
 /* ================================================ */
 
 .background {
     background-repeat: no-repeat;
     background-size: calc(400px + 79vmax);
-    background-position: top left;
+    background-position: 0px 0px;
 }
 
 /* ================================================ */
@@ -21,10 +25,54 @@ div {
 .fp-title {
     margin-top: 200px;
     font-size: 30px;
-    color: white;
+    color: rgb(192, 0, 0);
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 0px;
 }
 
+.fp-desc {
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 20px;
+}
+
+.fp-readmore-btn {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    background-color: rgba(0, 0, 0, 0.205);
+    border: solid 2px rgb(192, 0, 0);
+    margin: 30px 0px 300px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.fp-readmore-btn:hover {
+    background-color: rgba(0, 0, 0, 0.466);
+    transform: scale(1.2);
+}
 /* ================================================ */
+
+.bodytest {
+    background-color: white;
+}
+
+.feature {
+    background-color: rgb(192, 0, 0);
+    margin: -100px 10px 0px 10px;
+    padding: 100px 0px !important;
+}
+
+.feature-img {
+    width: 100px;
+    height: auto;
+}
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
 
 /* Adds the extra text just to test if the navbar functions properly */
 .test {

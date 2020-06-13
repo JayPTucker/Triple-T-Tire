@@ -45,6 +45,7 @@ div.col-7 {
     text-decoration: none;
     margin-left: calc(30px + 4vmin);
     line-height: 10px;
+    padding-bottom: 20px;
 
     transition: all 0.2s ease-in-out;
 }
@@ -62,12 +63,12 @@ div.col-7 {
 /* THE ACTIVE (CURRENT PAGE) ITEM ON THE NAVBAR */
 .navbar-link.active {
     font-weight: bolder;
-    color: rgb(192, 0, 0) !important;
+    color: rgb(192, 0, 0);
 }
 
 /* ^ HOVER ^ */
 .navbar-link.active:hover {
-    color: rgb(155, 0, 0) !important;
+    color: rgb(155, 0, 0);
 }
 
 /* ============================================== */
@@ -75,7 +76,8 @@ div.col-7 {
 /* THIS BELOW IS THE 3 LINES ICON AKA MORE OPTIONS BUTTON FOR WHEN THE SCREEN GETS SMALLER */
 .topnav a.icon {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    margin-right: -20px !important;
 }
 
 .topnav a.icon:hover {
