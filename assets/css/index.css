@@ -108,8 +108,8 @@ p {
 /* ================================================ */
 
 #map {
-    height: 400px;  /* The height is 400 pixels */
-    width: 1100px;  /* The width is the width of the web page */
+    height: calc(200px + 3vmax);  /* The height is 400 pixels */
+    width: calc(5px + 45vmax);  /* The width is the width of the web page */
     box-shadow: 1px 0px 10px black;
 }
 
