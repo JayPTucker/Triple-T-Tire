@@ -10,7 +10,6 @@ var x = document.getElementById("navbar");
     // x.style.position = "relative";
   } else {
     x.style.top = "-360px";
-    // x.style.zIndex = "1";
     // x.style.position = "absolute";
   }
   prevScrollpos = currentScrollPos;
@@ -19,10 +18,13 @@ var x = document.getElementById("navbar");
 // NAVBAR MINIMIZING FUNCTION?
 function navbarMinimize() {
   var x = document.getElementById("navbar");
+  var y = document.getElementById("intro-container")
   if (x.className === "header topnav sticky-top fixed-top container-fluid") {
     x.className += " responsive";
+    y.style.marginTop = "-90px";
   } else {
     x.className = "header topnav sticky-top fixed-top container-fluid";
+    y.style.marginTop = "0px";
   }
 }
 

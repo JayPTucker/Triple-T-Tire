@@ -3,6 +3,8 @@ body {
     font-family: 'Lalezar', sans-serif !important;
     letter-spacing: 0.5px !important;
     background-color: rgb(231, 231, 231) !important;
+    z-index: 1 !important;
+    position: absolute !important;
 }
 
 div {
@@ -24,12 +26,7 @@ p {
 
 /* ================================================ */
 
-.contact {
-    background-color: rgb(39, 39, 39);
-}
 
-
-/* ================================================ */
 
 /* .contact-box {
     margin-top: 20px;
