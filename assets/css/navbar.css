@@ -1,5 +1,29 @@
+/* ============================================== */
+
+.navicon {
+    color: white;
+    background-color: rgb(192, 0, 0);
+    font-size: 25px !important;
+    border-radius:  6px;
+    transition: all 0.4s ease-in-out;
+    padding: 4px 0px;
+    
+}
+
+.navicon:hover {
+    background-color: rgb(141, 0, 0);
+    font-size: 40px !important;
+}
+
+a.twitter.btn, a.google.btn, a.youtube.btn {
+    padding: 3px 0px;
+    float: right;
+}
+
+/* ============================================== */
+
 .header {
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.486);
     padding: 20px 0px;
     /* ADJUSTS THE SPEED OF THE NAVBAR COMING IN AND OUT UPON SCROLLING: */
     transition: all 0.4s ease-in-out;
@@ -7,7 +31,6 @@
 
 .header:hover {
     background-color: rgba(0, 0, 0, 0.582);
-    /* box-shadow: 0px 0px 10px black; */
 }
 
 /* ============================================== */
@@ -39,11 +62,11 @@ div.col-7 {
 /* CUSTOMIZING THE LINKS: */
 .navbar-link {
     color: white;
-    font-size: calc(15px + 1vmax);
+    font-size: calc(10px + 2vmin);
     font-weight: bold;
     text-shadow: 2px 2px 2px black;
     text-decoration: none;
-    margin-left: calc(30px + 4vmin);
+    margin-left: calc(10px + 2vmax);
     line-height: 10px;
     padding-bottom: 20px;
 
@@ -80,7 +103,7 @@ div.col-7 {
 }
 
 .topnav a.icon:hover {
-    color: white;
+    color: rgb(139, 139, 139);
 }
 
 .topnav a.icon:active {
@@ -89,24 +112,25 @@ div.col-7 {
 
 
 /* EVERYTHING ELSE BELOW IS FOR THE RESPONSIVE NAVBAR SUPPORT */
-.topnav .icon {
-    display: none;
+.responsive-nav-btn {
+    margin-left: -30px;
 }
 
-@media screen and (max-width: 600px) {
+.topnav .icon {
+    display: none;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 3px
+}
+
+@media screen and (max-width: 786px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       display: block;
     }
   }
   
-  @media screen and (max-width: 600px) {
-    .topnav.responsive
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
+  @media screen and (max-width: 786px) {
     .topnav.responsive a {
       display: block;
     }

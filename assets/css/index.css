@@ -7,6 +7,7 @@ body {
 
 div {
     padding: 0px !important;
+    margin: 0px !important;
 }
 
 p {
@@ -18,13 +19,40 @@ p {
 .background {
     background-repeat: no-repeat;
     background-size: calc(400px + 79vmax);
-    background-position: 0px 0px;
+    background-position: 0px -140px !important;
 }
 
 /* ================================================ */
 
+.contact {
+    background-color: rgb(39, 39, 39);
+}
+
+
+/* ================================================ */
+
+/* .contact-box {
+    margin-top: 20px;
+}
+
+.vl {
+    margin-top: 20px;
+    border-left: 2px solid rgba(192, 0, 0, 0.507);
+    height: 30px;
+
+}
+
+.hl {
+    margin-top: 10px;
+    border-bottom: 2px solid rgba(192, 0, 0, 0.507);
+
+} */
+
+
+/* ================================================ */
+
 .fp-title {
-    margin-top: 200px;
+    margin-top: calc(60px + 7vmax);
     font-size: 30px;
     color: rgb(192, 0, 0);
     text-shadow: 2px 2px 2px black;
@@ -72,7 +100,7 @@ p {
 }
 
 .feature:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: rgb(165, 0, 0);
 }
 
