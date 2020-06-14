@@ -10,7 +10,6 @@ var x = document.getElementById("navbar");
     // x.style.position = "relative";
   } else {
     x.style.top = "-360px";
-    // x.style.position = "absolute";
   }
   prevScrollpos = currentScrollPos;
 }

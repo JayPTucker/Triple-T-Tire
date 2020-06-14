@@ -20,8 +20,9 @@ p {
 
 .background {
     background-repeat: no-repeat;
-    background-size: calc(400px + 79vmax);
-    background-position: 0px -140px !important;
+    background-size: calc(800px + 60vmax);
+    background-position: top center;
+    background-attachment: fixed;
 }
 
 /* ================================================ */
@@ -81,18 +82,16 @@ p {
 /* ================================================ */
 
 .feature-section {
-    background-color: rgba(255, 255, 255, 0);
-    /* DIVS DISTANCE FROM THE ROW ABOVE */
-    margin-top: -20px;
-    margin-bottom: 275px;
+    padding: 50px 0px !important;
+    background-color: rgb(37, 37, 37);
+    box-shadow: inset 0px 10px 30px black;
 }
 
 .feature {
     background-color: rgb(192, 0, 0);
-    box-shadow: 0px 0px 8px black;
+    box-shadow: 0px 5px 5px black;
     /* THE 10PX DISTANCE IS FOR PROPER GAPS ON MOBILE */
-    margin: 0px 10px 0px 10px !important;
-
+    margin: 10px 10px !important;
     transition: all 0.3s ease-in-out;
 }
 
@@ -132,6 +131,12 @@ p {
 
 /* ================================================ */
 
+.directions-container {
+    padding: 50px 0px;
+    background-color: white;
+    box-shadow: inset 0px 10px 10px black;
+}
+
 #map {
     height: calc(200px + 3vmax);  /* The height is 400 pixels */
     width: calc(5px + 45vmax);  /* The width is the width of the web page */
@@ -139,10 +144,3 @@ p {
 }
 
 /* ================================================ */
-
-
-@media screen and (max-width: 768px) {
-    .feature {
-        margin: 10px 20px 0px 20px !important;
-    }
-}
