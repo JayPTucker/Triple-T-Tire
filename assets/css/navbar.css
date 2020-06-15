@@ -1,16 +1,37 @@
 /* ============================================== */
 .contact {
-    background-color: rgba(0, 0, 0, 0.678)
+    background-color: rgba(0, 0, 0, 0.678);
 }
+
+/* THESE ARE THE PHONE, LOCATION, AND EMAIL ICONS */
+.fa-phone, .fa-location-arrow, .fa-envelope {
+    color: white;
+    text-shadow: 0px 2px 2px black;
+}
+
+.contact-info {
+    color: white;
+    text-shadow: 0px 2px 2px black;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-info:hover {
+    color: rgb(192, 0, 0);
+    font-size: 20px;
+}
+
+/* ======= */
 
 .navicon {
     color: white;
     background-color: rgb(192, 0, 0);
-    font-size: 25px !important;
+    font-size: calc(10px + 1vmax) !important;
     border-radius:  6px;
     transition: all 0.4s ease-in-out;
     padding: 4px 0px;
-    
+    margin-left: 10px;
+    -webkit-filter: drop-shadow(0px 0px 3px rgb(0, 0, 0));
+    filter: drop-shadow(0px 0px 3px rgb(0, 0, 0));
 }
 
 .navicon:hover {

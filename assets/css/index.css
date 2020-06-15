@@ -12,10 +12,6 @@ div {
     margin: 0px !important;
 }
 
-p {
-    padding: 0px !important;
-}
-
 /* ================================================ */
 
 .background {
@@ -24,28 +20,6 @@ p {
     background-position: top center;
     background-attachment: fixed;
 }
-
-/* ================================================ */
-
-
-
-/* .contact-box {
-    margin-top: 20px;
-}
-
-.vl {
-    margin-top: 20px;
-    border-left: 2px solid rgba(192, 0, 0, 0.507);
-    height: 30px;
-
-}
-
-.hl {
-    margin-top: 10px;
-    border-bottom: 2px solid rgba(192, 0, 0, 0.507);
-
-} */
-
 
 /* ================================================ */
 
@@ -82,14 +56,19 @@ p {
 /* ================================================ */
 
 .feature-section {
-    padding: 50px 0px !important;
+    padding: calc(10px + 1vmax) 0px !important;
     background-color: rgb(37, 37, 37);
     box-shadow: inset 0px 10px 30px black;
 }
 
+.feature-img-main {
+    -webkit-filter: drop-shadow(0px 0px 4px rgb(0, 0, 0));
+    filter: drop-shadow(0px 0px 4px rgb(0, 0, 0));
+}
+
 .feature {
     background-color: rgb(192, 0, 0);
-    box-shadow: 0px 5px 5px black;
+    box-shadow: 0px 5px 10px black;
     /* THE 10PX DISTANCE IS FOR PROPER GAPS ON MOBILE */
     margin: 10px 10px !important;
     transition: all 0.3s ease-in-out;
@@ -97,6 +76,7 @@ p {
 
 .feature:hover {
     transform: scale(1.05);
+    box-shadow: 0px 5px 20px black;
     background-color: rgb(165, 0, 0);
 }
 
@@ -119,12 +99,14 @@ p {
 .feature-title {
     font-size: 28px;
     color: white;
+    text-shadow: 0px 1px 3px black;
 }
 
 .feature-desc {
     color: white;
     font-size: 13px;
     font-family: sans-serif;
+    text-shadow: 0px 1px 3px black;
     padding: 0px 10px 30px 10px !important;
 }
 
@@ -132,15 +114,18 @@ p {
 /* ================================================ */
 
 .directions-container {
-    padding: 50px 0px;
     background-color: white;
-    box-shadow: inset 0px 10px 10px black;
+    padding: 0px !important;
+}
+
+.stores {
+    background-color: rgb(109, 109, 109);
 }
 
 #map {
-    height: calc(200px + 3vmax);  /* The height is 400 pixels */
-    width: calc(5px + 45vmax);  /* The width is the width of the web page */
-    box-shadow: 1px 0px 10px black;
+    height: 300px;  /* The height is 400 pixels */
+    width: calc(50px + 86%);  /* The width is the width of the web page */
+    box-shadow: 0px 5px 10px black;
 }
 
 /* ================================================ */
