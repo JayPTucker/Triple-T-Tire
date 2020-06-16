@@ -26,15 +26,15 @@ div {
 .fp-title {
     margin-top: calc(60px + 7vmax);
     font-size: 30px;
-    color: rgb(192, 0, 0);
-    text-shadow: 2px 2px 2px black;
+    color: #1f76da;
+    text-shadow: 1px 3px 1px #000000;
     margin-bottom: 0px;
 }
 
 .fp-desc {
     font-size: 40px;
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 3px 2px black;
     margin-top: 20px;
 }
 
@@ -44,7 +44,7 @@ div {
     color: white;
     text-shadow: 2px 2px 2px black;
     background-color: rgba(0, 0, 0, 0.205);
-    border: solid 2px rgb(192, 0, 0);
+    border: solid 2px #1f76da;
     margin: 30px 0px calc(100px + 3vmin) 0px;
     transition: all 0.3s ease-in-out;
 }
@@ -62,12 +62,12 @@ div {
 }
 
 .feature-img-main {
-    -webkit-filter: drop-shadow(0px 0px 4px rgb(0, 0, 0));
-    filter: drop-shadow(0px 0px 4px rgb(0, 0, 0));
+    -webkit-filter: drop-shadow(0px 2px 20px rgb(0, 0, 0));
+    filter: drop-shadow(0px 4px 3px rgb(0, 0, 0));
 }
 
 .feature {
-    background-color: rgb(192, 0, 0);
+    background: linear-gradient(#024fb3, #357ccc);
     box-shadow: 0px 5px 10px black;
     /* THE 10PX DISTANCE IS FOR PROPER GAPS ON MOBILE */
     margin: 10px 10px !important;
@@ -76,6 +76,7 @@ div {
 
 .feature:hover {
     transform: scale(1.05);
+    background: linear-gradient(#0148a3, #2a68ad);
     box-shadow: 0px 5px 20px black;
     background-color: rgb(165, 0, 0);
 }

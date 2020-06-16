@@ -16,7 +16,7 @@
 }
 
 .contact-info:hover {
-    color: rgb(192, 0, 0);
+    color: #1f76da;
     font-size: 20px;
 }
 
@@ -24,7 +24,7 @@
 
 .navicon {
     color: white;
-    background-color: rgb(192, 0, 0);
+    background-color: #1f76da;
     font-size: calc(10px + 1vmax) !important;
     border-radius:  6px;
     transition: all 0.4s ease-in-out;
@@ -35,11 +35,11 @@
 }
 
 .navicon:hover {
-    background-color: rgb(141, 0, 0);
+    background-color: #0a3f85;
     font-size: 40px !important;
 }
 
-a.twitter.btn, a.google.btn, a.youtube.btn {
+a.twitter.btn, a.facebook.btn, a.youtube.btn {
     padding: 3px 0px;
     float: right;
 }
@@ -63,15 +63,15 @@ a.twitter.btn, a.google.btn, a.youtube.btn {
 .ttt-img {
     width: calc(100px + 10vmax);
     height: auto;
-    -webkit-filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
-    filter: drop-shadow(3px 3px 1px rgb(0, 0, 0));
+    -webkit-filter: drop-shadow(0px 2px 20px #000000);
+    filter: drop-shadow(0px 4px 3px #000000);
     transition: all 0.2s ease-in-out;
 }
 
 .ttt-img:hover {
     transform: scale(1.15);
     -webkit-filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
-    filter: drop-shadow(3px 3px 5px rgb(0, 0, 0));
+    filter: drop-shadow(1px 1px 3px #a2cdff);
 }
 
 /* ============================================== */
@@ -88,21 +88,21 @@ div.col-7 {
     color: white;
     font-size: calc(10px + 2vmin);
     font-weight: bold;
-    text-shadow: 2px 2px 2px black;
     text-decoration: none;
     margin-left: calc(10px + 2vmax);
     line-height: 10px;
     padding-bottom: 20px;
+    text-shadow: 1px 3px 4px #1f76da;
 
     transition: all 0.2s ease-in-out;
 }
 
 /* ^ HOVER ^ */
 .navbar-link:hover {
-    color: rgb(182, 182, 182);
-    text-shadow: 2px 2px 7px black;
+    color: #5497e4;
     text-decoration: none;
     font-size: calc(13px + 1.2vmax);
+    text-shadow: 1px 3px 4px #002958;
 }
 
 /* ============================================== */
@@ -110,12 +110,14 @@ div.col-7 {
 /* THE ACTIVE (CURRENT PAGE) ITEM ON THE NAVBAR */
 .navbar-link.active {
     font-weight: bolder;
-    color: rgb(192, 0, 0);
+    color: #1f76da;
+    text-shadow: 1px 3px 4px #002958;
 }
 
 /* ^ HOVER ^ */
 .navbar-link.active:hover {
-    color: rgb(155, 0, 0);
+    color: #5497e4;
+    text-shadow: 1px 3px 4px #002958;
 }
 
 /* ============================================== */
