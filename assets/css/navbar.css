@@ -1,6 +1,11 @@
 /* ============================================== */
 .contact {
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: rgba(0, 0, 0, 0.65);
+    transition: all 0.4s ease-in-out;
+}
+
+.contact:hover {
+    background-color: rgba(0, 0, 0, 0.705);
 }
 
 /* THESE ARE THE PHONE, LOCATION, AND EMAIL ICONS */
@@ -156,8 +161,14 @@ div.col-7 {
     }
   }
   
-  @media screen and (max-width: 786px) {
+@media screen and (max-width: 786px) {
     .topnav.responsive a {
       display: block;
     }
-  }
+}
+
+/* @media screen and (max-width: 600px) {
+    .contact-info {
+
+    }
+} */
