@@ -94,7 +94,7 @@ div.col-7 {
     font-size: calc(10px + 2vmin);
     font-weight: bold;
     text-decoration: none;
-    margin-left: calc(10px + 2vmax);
+    margin: calc(10px + 1vmax);
     line-height: 10px;
     padding-bottom: 20px;
     text-shadow: 1px 3px 4px #1f76da;
@@ -106,6 +106,7 @@ div.col-7 {
 .navbar-link:hover {
     color: #5497e4;
     text-decoration: none;
+    margin: calc(2px + 1vmax);
     font-size: calc(13px + 1.2vmax);
     text-shadow: 1px 3px 4px #002958;
 }
@@ -167,8 +168,12 @@ div.col-7 {
     }
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .contact-info {
-
+        visibility: hidden;
     }
-} */
+
+    .fa-envelope {
+        visibility: visible !important;
+    }
+}

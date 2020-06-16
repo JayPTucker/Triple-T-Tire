@@ -50,15 +50,15 @@ div {
 }
 
 .fp-readmore-btn:hover {
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.144);
     transform: scale(1.2);
 }
 /* ================================================ */
 
 .feature-section {
     padding: calc(10px + 1vmax) 0px !important;
-    background-color: rgb(37, 37, 37);
-    box-shadow: inset 0px 10px 30px black;
+    background-color: rgba(0, 0, 0, 0.294);
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.596);
 }
 
 .feature-img-main {
@@ -68,7 +68,7 @@ div {
 
 .feature {
     background: linear-gradient(#024fb3, #357ccc);
-    box-shadow: 0px 5px 10px black;
+    box-shadow: 0px 5px 5px black;
     /* THE 10PX DISTANCE IS FOR PROPER GAPS ON MOBILE */
     margin: 10px 10px !important;
     transition: all 0.3s ease-in-out;
